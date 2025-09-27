@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<div th:replace="head::head"></div>
+<body>
+<!-- Epic Neural Background -->
+<div class="neural-background"></div>
+
+<div th:replace="head::shape"></div>
+<div th:replace="head::line"></div>
+
+<header th:replace="head::nav"></header>
+
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <div class="contact-info glass">
+            <h3>Login</h3>
+            <div class="social-links">
+                <a href="#" class="glass">ثبت نام</a>
+                <a href="#" class="glass">🌐</a>
+                <a href="#" class="glass">💬</a>
+                <a href="#" class="glass">📨</a>
+            </div>
+        </div>
+
+        <div class="contact-form glass">
+            <div class="form-group">
+                <input type="text" placeholder="User" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="submit-btn">ورود</button>
+        </div>
+    </div>
+</section>
+
+<footer th:replace="head::footer"></footer>
+
+<script src="/public/templatemo-neural-scripts.js"></script>
+</body>
+</html>
